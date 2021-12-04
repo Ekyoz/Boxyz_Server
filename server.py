@@ -4,7 +4,7 @@ import sys
 import random
 
 #Adresse and port of socket server
-HOST = '192.168.1.29'
+HOST = '192.168.1.26'
 PORT = 25565
 
 access_json = 'json.json'
