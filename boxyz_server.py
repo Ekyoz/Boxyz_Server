@@ -7,7 +7,7 @@ import random
 HOST = '192.168.1.29'
 PORT = 8080
 
-access_json = 'json.json'
+access_json = 'boxyz_json.json'
 
 #Create server
 try:
