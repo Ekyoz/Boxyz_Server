@@ -1,0 +1,23 @@
+2021-12-26 21:38:01,476 -- root -- INFO -- 21:38 -- Current on: None
+2021-12-26 21:38:15,986 -- root -- INFO -- 21:38 -- Current on: None
+2021-12-26 21:38:20,992 -- root -- WARNING -- Warning Error 01234: Thread clock, le thread ne c'est pas lancer
+2021-12-26 21:40:25,738 -- root -- INFO -- 21:40 -- Current on: None
+2021-12-26 21:40:30,864 -- root -- INFO -- 21:40 -- Current on: None
+2021-12-26 21:40:38,566 -- root -- INFO -- 21:40 -- Current on: None
+2021-12-26 21:41:01,297 -- root -- INFO -- 21:41 -- Current on: None
+2021-12-26 21:41:06,303 -- root -- WARNING -- Warning Error 01234: Thread clock, le thread ne c'est pas lancer : <class 'NameError'>
+2021-12-26 21:44:53,452 -- root -- INFO -- 21:44 -- Current on: None
+2021-12-26 21:44:58,458 -- root -- ERROR -- Warning Error
+Traceback (most recent call last):
+  File "/home/pi/Boxyz_Server/boxyz_heat_clock.py", line 78, in main_clock
+    toeff
+NameError: name 'toeff' is not defined
+2021-12-26 21:46:42,607 -- root -- INFO -- 21:46 -- Current on: None
+2021-12-26 21:54:04,466 -- root -- INFO -- 21:54 -- Current on: None
+2021-12-26 21:54:20,976 -- root -- INFO -- 21:54 -- Current on: None
+2021-12-26 21:54:25,982 -- root -- WARNING -- Warning Error 2001: Erreur thread clock : name 'toeff' is not defined
+2021-12-26 21:57:47,757 -- root -- INFO -- 21:57 -- Current on: None
+2021-12-26 22:02:21,106 -- Boxyz -- INFO -- 22:02 -- Current on: None
+2021-12-26 22:02:26,108 -- Boxyz -- WARNING -- Warning Error 2001: Erreur thread clock : name 'toeff' is not defined
+2021-12-26 22:03:10,024 -- Boxyz -- INFO -- 22:03 -- Current on: None
+2021-12-26 22:03:15,030 -- Boxyz -- CRITICAL -- Warning Error 2001: Erreur thread clock : name 'toeff' is not defined

@@ -47,9 +47,9 @@
                               "Mercredi",
                               "Dimanche"
                         ],
-                        "hourStart": "14:10",
-                        "hourEnd": "14:10",
-                        "temp": "21",
+                        "hourStart": "18:41",
+                        "hourEnd": "18:42",
+                        "temp": "22",
                         "state": "True"
                   }
             },
@@ -75,8 +75,7 @@
             ],
             "Saturday": [],
             "Sunday": [
-                  4,
-                  3
+                  4
             ]
       },
       "settings": {
