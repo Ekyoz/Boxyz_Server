@@ -8,5 +8,5 @@ thread_server = threading.Thread(target=main_server)
 thread_clock.setName('Clock thread')
 thread_server.setName('Server thread')
 
-thread_server.start()
 thread_clock.start()
+thread_server.start()

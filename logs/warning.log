@@ -1,0 +1,7 @@
+2022-01-03 20:55:47,407 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-03 20:55:52,196 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
+2022-01-03 20:56:32,973 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-03 20:56:37,104 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
+2022-01-03 20:56:55,532 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-03 20:57:02,118 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
+2022-01-03 20:58:41,937 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
