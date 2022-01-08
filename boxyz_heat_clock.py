@@ -7,21 +7,22 @@ from boxyz_heat_functions import *
 
 access_json = 'boxyz_json.json'
 current_on : int = None
-formatter = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
 
+formatter_warning = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
 handler_warning = logging.FileHandler("logs/warning.log", mode="a", encoding="utf-8")
-handler_info = logging.FileHandler("logs/info.log", mode="a", encoding="utf-8")
-
-handler_warning.setFormatter(formatter)
-handler_info.setFormatter(formatter)
-
-handler_info.setLevel(logging.INFO)
+handler_warning.setFormatter(formatter_warning)
 handler_warning.setLevel(logging.WARNING)
+logger_warning = logging.getLogger("CLOCK")
+logger_warning.setLevel(logging.WARNING)
+logger_warning.addHandler(handler_warning)
 
-logger = logging.getLogger("Clock")
-logger.setLevel(logging.INFO)
-logger.addHandler(handler_warning)
-logger.addHandler(handler_info)
+formatter_clock = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
+handler_clock = logging.FileHandler("logs/clock.log", mode="a", encoding="utf-8")
+handler_clock.setFormatter(formatter_clock)
+handler_clock.setLevel(logging.INFO)
+logger_clock = logging.getLogger("CLOCK")
+logger_clock.setLevel(logging.INFO)
+logger_clock.addHandler(handler_clock)
 
 
 def main_clock():
@@ -40,7 +41,7 @@ def main_clock():
                 with open(access_json, "r") as f:
                     Json = json.load(f)
                     clockSetTemperature(int(Json["settings"]["heatDefault"]))
-            logger.info(str(current_hour) + " -- " + "Current on: " + str(current_on))
+            logger_clock.info(str(current_hour) + " -- " + "Current on: " + str(current_on))
             time.sleep(5)
     except Exception as e:
-        logger.warning('Warning Error %s: %s', '2001', 'Erreur thread clock : ' + str(e))
+        logger_warning.warning('Warning Error %s: %s', '2001', 'Erreur thread clock : ' + str(e))

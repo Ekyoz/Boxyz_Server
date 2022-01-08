@@ -1,13 +1,6 @@
-2022-01-05 20:30:12,073 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-05 20:31:35,556 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-05 20:31:43,592 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-05 21:20:41,694 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-05 21:21:28,060 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-05 21:25:39,148 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-07 23:46:01,287 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:47:32,076 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
 2022-01-07 23:50:17,900 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:50:21,328 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> [Errno 9] Bad file descriptor
 2022-01-07 23:51:22,200 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-07 23:51:57,185 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-07 23:52:36,266 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
@@ -19,11 +12,8 @@
 2022-01-08 00:08:45,335 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-08 00:08:54,661 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-08 00:10:18,215 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:10:33,691 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> name 'current_on' is not defined
-2022-01-08 00:13:27,602 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> name 'current_on' is not defined
 2022-01-08 00:14:04,727 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-08 00:15:48,691 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:15:59,627 -- Serveur -- WARNING -- Warning Error 2009: Erreur thread server : Erreur in sockets arguments. -> name 'current_on' is not defined
 2022-01-08 00:16:59,965 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-08 12:54:21,535 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-08 12:57:22,496 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined

@@ -1,0 +1,11 @@
+2022-01-09 00:03:49,233 -- Serveur -- INFO -- Server created and now listening
+2022-01-09 00:03:52,424 -- Serveur -- INFO -- Connected with 81.185.173.140:39044
+2022-01-09 00:03:52,429 -- Serveur -- INFO -- Client -> test
+2022-01-09 00:05:10,632 -- Serveur -- INFO -- Connected with 81.185.173.140:39050
+2022-01-09 00:05:10,633 -- Serveur -- INFO -- Client -> test
+2022-01-09 00:06:57,483 -- Serveur -- INFO -- Connected with 81.185.173.140:39054
+2022-01-09 00:06:57,487 -- Serveur -- INFO -- Client -> test
+2022-01-09 00:06:57,878 -- Serveur -- INFO -- Connected with 81.185.173.140:39056
+2022-01-09 00:06:57,883 -- Serveur -- INFO -- Client -> getJson
+2022-01-09 00:06:57,958 -- Serveur -- INFO -- Connected with 81.185.173.140:39058
+2022-01-09 00:06:57,963 -- Serveur -- INFO -- Client -> getJson
