@@ -1,5 +1,6 @@
 import json
 import requests
+import datetime
 
 access_json = 'boxyz_json.json'
 
@@ -30,7 +31,7 @@ def heatAddTemp():
         temp : int = Json["heat"]["temperature"]
         heatMax : int = Json["settings"]["heatMax"]
         if temp < heatMax:
-            Json["heat"]["temperature"] = temp + 1
+            Json["heat"]["temperature"] = int(temp + 1)
             with open(access_json, "w") as j:
                 json.dump(Json, j, indent=6)
 
@@ -40,7 +41,7 @@ def heatDelTemp():
         temp : int = Json["heat"]["temperature"]
         heatMin = Json["settings"]["heatMin"]
         if heatMin < temp:
-            Json["heat"]["temperature"] = temp - 1
+            Json["heat"]["temperature"] = int(temp - 1)
             with open(access_json, "w") as j:
                 json.dump(Json, j, indent=6)
 
@@ -66,8 +67,8 @@ def setDays():
 #-------SET-------#
 
 def clockSetCurrentOn():
-    current_hour = datetime.now().strftime("%H:%M")
-    current_day = datetime.today().strftime("%A")
+    current_hour = datetime.datetime.now().strftime("%H:%M")
+    current_day = datetime.datetime.today().strftime("%A")
     with open(access_json, "r") as f:
         Json = json.load(f)
         for i in range(len(Json["days"][current_day])): #pour le nombre de slot dans le jour

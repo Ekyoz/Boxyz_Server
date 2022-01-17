@@ -1,7 +1,5 @@
-from datetime import datetime
-import time
+import datetime
 import json
-import requests
 import logging
 from boxyz_heat_functions import *
 
@@ -26,22 +24,19 @@ logger_clock.addHandler(handler_clock)
 
 
 def main_clock():
-    try:
-        while True:
-            current_hour = datetime.now().strftime("%H:%M")
-            if clockSetCurrentOn() is not None:
-                current_on = clockSetCurrentOn()
-                clockSetOnThermostas(clockGetTempSlot(current_on))
-                with open(access_json, "r") as f:
-                    Json = json.load(f)
-                    clockSetTemperature(int(Json["heat"]["timeSlot"][str(current_on)]["temp"]))
-            if clockSetCurrentOn() is None:
-                current_on = clockSetCurrentOn() 
-                clockSetOffThermostas()
-                with open(access_json, "r") as f:
-                    Json = json.load(f)
-                    clockSetTemperature(int(Json["settings"]["heatDefault"]))
-            logger_clock.info(str(current_hour) + " -- " + "Current on: " + str(current_on))
-            time.sleep(5)
-    except Exception as e:
-        logger_warning.warning('Warning Error %s: %s', '2001', 'Erreur thread clock : ' + str(e))
+    while True:
+        current_hour = datetime.datetime.now().strftime("%H:%M")
+        if clockSetCurrentOn() is not None:
+            current_on = clockSetCurrentOn()
+            clockSetOnThermostas(clockGetTempSlot(current_on))
+            with open(access_json, "r") as f:
+                Json = json.load(f)
+                clockSetTemperature(int(Json["heat"]["timeSlot"][str(current_on)]["temp"]))
+        if clockSetCurrentOn() is None:
+            current_on = clockSetCurrentOn() 
+            clockSetOffThermostas()
+            with open(access_json, "r") as f:
+                Json = json.load(f)
+                clockSetTemperature(int(Json["settings"]["heatDefault"]))
+        logger_clock.info(str(current_hour) + " -- " + "Current on: " + str(current_on))
+        time.sleep(5)

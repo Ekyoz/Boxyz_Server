@@ -53,7 +53,7 @@
                         "state": "True"
                   }
             },
-            "temperature": "20"
+            "temperature": 18
       },
       "days": {
             "Monday": [

@@ -52,14 +52,3 @@ except Exception as e:
     raise ValueError("Clock can be start")
     logger_warning.warning('Warning Error', 'Erreur start clock : Failed to start clock.')
     print("Serveur erreur: " + repr(e))
-
-
-while True:
-    Input = input()
-    if Input == "exit":
-        thread_clock._stop()
-        thread_server._stop()
-        logger_serveur.info("Shutdown serveur and clock Boxyz")
-        print("Shutdown serveur and clock Boxyz")
-        break
-
