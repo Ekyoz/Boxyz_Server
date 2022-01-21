@@ -30,12 +30,11 @@ logger_warning.addHandler(handler_warning)
 
 
 #----------Threading---------
-thread_clock = threading.Thread(target=main_clock)
+#thread_clock = threading.Thread(target=main_clock)
 thread_server = threading.Thread(target=main_server)
 
-thread_clock.setName('Clock thread')
+#thread_clock.setName('Clock thread')
 thread_server.setName('Server thread')
-
 
 try:
     server = thread_server.start()
@@ -44,7 +43,7 @@ except Exception as e:
     raise ValueError("Serveur can be start")
     logger_warning.warning('Warning Error', 'Erreur start serveur : Failed to start serveur.')
     print("Serveur erreur: " + repr(e))
-
+'''
 try:
     clock = thread_clock.start()
     logger_clock.info("Start clock Boxyz")
@@ -52,3 +51,4 @@ except Exception as e:
     raise ValueError("Clock can be start")
     logger_warning.warning('Warning Error', 'Erreur start clock : Failed to start clock.')
     print("Serveur erreur: " + repr(e))
+    '''
