@@ -1,0 +1,94 @@
+{
+      "heat": {
+            "timeSlot": {
+                  "0": {
+                        "name": "Nom",
+                        "day": [],
+                        "hourStart": "00:00",
+                        "hourEnd": "00:00",
+                        "temp": "20",
+                        "state": "False"
+                  },
+                  "1": {
+                        "name": "Matin",
+                        "day": [
+                              "Lundi",
+                              "Mardi"
+                        ],
+                        "hourStart": "8:00",
+                        "hourEnd": "10:00",
+                        "temp": "20",
+                        "state": "True"
+                  },
+                  "2": {
+                        "name": "Midi",
+                        "day": [
+                              "Mardi"
+                        ],
+                        "hourStart": "16:48",
+                        "hourEnd": "16:48",
+                        "temp": "22",
+                        "state": "True"
+                  },
+                  "3": {
+                        "name": "Apres-Midi",
+                        "day": [
+                              "Mercredi",
+                              "Vendredi"
+                        ],
+                        "hourStart": "14:25",
+                        "hourEnd": "14:36",
+                        "temp": "20",
+                        "state": "True"
+                  },
+                  "4": {
+                        "name": "Soir",
+                        "day": [
+                              "Mercredi",
+                              "Dimanche"
+                        ],
+                        "hourStart": "18:41",
+                        "hourEnd": "18:42",
+                        "temp": "22",
+                        "state": "True"
+                  }
+            },
+            "temperature": 18
+      },
+      "days": {
+            "Monday": [
+                  1
+            ],
+            "Tuesday": [
+                  1,
+                  2
+            ],
+            "Wednesday": [
+                  3,
+                  4
+            ],
+            "Thursday": [
+                  2
+            ],
+            "Friday": [
+                  4
+            ],
+            "Saturday": [],
+            "Sunday": [
+                  4
+            ]
+      },
+      "settings": {
+            "thermostas": {
+                  "ip": "192.168.1.39",
+                  "port": "80"
+            },
+            "server": {
+                  "host": "192.168.1.29",
+                  "port": "3131"
+            },
+            "heatMax": 25,
+            "heatMin": 18,
+            "heatDefault": 19
+      }
+}

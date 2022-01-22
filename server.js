@@ -17,14 +17,14 @@ app.get('/json', function (req, res) {
     res.status(200).json({ "message": "ok" })
 })
 
+io.st
+
 // établissement de la connexion
 io.on('connection', (socket) => {
     console.log(`Connecté au client ${socket.id}`)
 })
 
-io.
-
-    // on change app par server
-    server.listen(3000, function () {
-        console.log('Votre app est disponible sur localhost:3000 !')
-    })
+// on change app par server
+server.listen(3000, function () {
+    console.log('Votre app est disponible sur localhost:3000 !')
+})
