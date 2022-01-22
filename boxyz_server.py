@@ -56,34 +56,39 @@ def main_server():
         string = reqCommand.decode('utf-8')
         #Condition
         try:
-            if string == 'test':
-                conn.send(str("true").encode('utf-8'))
-            if string == 'getJson':
-                with open(access_json, "r") as f:
-                    Json = json.load(f)
-                    conn.send(str(Json).encode('utf-8'))
-            
-            if "setHeat" in string:
-                conn.send("temp set".encode('utf-8'))
-                clockSetTemperature(string.split("-")[1])
+            try:
+                if string == 'test':
+                    conn.send(str("true").encode('utf-8'))
+                if string == 'getJson':
+                    with open(access_json, "r") as f:
+                        Json = json.load(f)
+                        conn.send(str(Json).encode('utf-8'))
+                
+                if "setHeat" in string:
+                    conn.send("temp set".encode('utf-8'))
+                    clockSetTemperature(string.split("-")[1])
 
-            if string == 'getHeat':
-                with open(access_json, "r") as f:
-                    Json = json.load(f)
-                    conn.send(str(Json["heat"]["temperature"]).encode('utf-8'))
-            
-            if string == 'heatAdd':
-                heatAddTemp()
+                if string == 'getHeat':
+                    with open(access_json, "r") as f:
+                        Json = json.load(f)
+                        conn.send(str(Json["heat"]["temperature"]).encode('utf-8'))
+                
+                if string == 'heatAdd':
+                    heatAddTemp()
 
-            if string == 'heatDel':
-                heatDelTemp()
+                if string == 'heatDel':
+                    heatDelTemp()
 
-            if string == 'changeStatusHeater':
-                if current_on is not None:
-                    clockSetOffThermostas()
-                if current_on is None:
-                    clockSetOnThermostas(clockGetTempSlot(current_on))  
-        except:
-            conn.send("error".encode('utf-8'))
+                if string == 'changeStatusHeater':
+                    if current_on is not None:
+                        clockSetOffThermostas()
+                    if current_on is None:
+                        clockSetOnThermostas(clockGetTempSlot(current_on))  
+            except:
+                conn.send("error".encode('utf-8'))
+              
+        except Exception as e:
+            logger_warning.warning('Warning Error %s: %s', '2009', 'Erreur thread server : Erreur in sockets arguments. -> ' + str(e))
+
         conn.close()
     s.close()
