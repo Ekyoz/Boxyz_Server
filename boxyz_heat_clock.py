@@ -1,4 +1,4 @@
-from datetime import datetime
+import datetime
 import time
 import json
 import requests
@@ -7,14 +7,6 @@ from boxyz_heat_functions import *
 
 access_json = 'boxyz_json.json'
 current_on : int = None
-
-formatter_warning = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
-handler_warning = logging.FileHandler("logs/warning.log", mode="a", encoding="utf-8")
-handler_warning.setFormatter(formatter_warning)
-handler_warning.setLevel(logging.WARNING)
-logger_warning = logging.getLogger("CLOCK")
-logger_warning.setLevel(logging.WARNING)
-logger_warning.addHandler(handler_warning)
 
 formatter_clock = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
 handler_clock = logging.FileHandler("logs/clock.log", mode="a", encoding="utf-8")
@@ -28,7 +20,7 @@ logger_clock.addHandler(handler_clock)
 def main_clock():
     try:
         while True:
-            current_hour = datetime.now().strftime("%H:%M")
+            current_hour = datetime.datetime.now().strftime("%H:%M")
             if clockSetCurrentOn() is not None:
                 current_on = clockSetCurrentOn()
                 clockSetOnThermostas(clockGetTempSlot(current_on))
@@ -44,4 +36,4 @@ def main_clock():
             logger_clock.info(str(current_hour) + " -- " + "Current on: " + str(current_on))
             time.sleep(5)
     except Exception as e:
-        logger_warning.warning('Warning Error %s: %s', '2001', 'Erreur thread clock : ' + str(e))
+        logger_clock.warning('Warning Error %s: %s', '2001', 'Erreur thread clock : ' + str(e))

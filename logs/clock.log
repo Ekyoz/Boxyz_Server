@@ -1,45 +1,30 @@
-2022-01-05 21:21:28,060 -- Clock -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:46:01,287 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:50:17,900 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:51:22,200 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:51:57,185 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:52:36,266 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-07 23:53:19,136 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:00:26,397 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:03:46,475 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:05:56,002 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:08:24,737 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:08:45,335 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:08:54,661 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:10:18,215 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:14:04,727 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:15:48,691 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 00:16:59,965 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 12:54:21,535 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 12:57:22,496 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 12:57:40,859 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 12:58:17,408 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 12:59:01,233 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:12:17,853 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:13:13,683 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:13:28,244 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:14:33,848 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:15:24,356 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:30:16,104 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:34:10,210 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:34:59,102 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:35:07,332 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:35:11,247 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:35:19,171 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:36:59,199 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:38:28,762 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:46:53,742 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:47:14,307 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-08 23:47:21,331 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:02:32,099 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:03:07,628 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:03:19,461 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:03:36,311 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:03:49,233 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:07:19,580 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
-2022-01-09 00:07:31,454 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:15:14,551 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:15:14,553 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:15:14,553 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:22:51,434 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:22:51,436 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:22:51,436 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:26:58,953 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:26:58,955 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:26:58,955 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:27:31,430 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:27:31,430 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:27:31,431 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:46:45,041 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:46:45,041 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:46:45,042 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:49:27,479 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:49:27,479 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:49:27,480 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:50:56,103 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:50:56,103 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:50:56,104 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:51:31,663 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:51:31,663 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:51:31,664 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:51:38,927 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:51:38,928 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:51:38,928 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 22:51:51,383 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
+2022-01-29 22:51:51,383 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 22:51:51,384 -- MAIN -- STARTING -- Start serveur Boxyz

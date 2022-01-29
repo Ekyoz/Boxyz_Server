@@ -5,17 +5,9 @@ import random
 import threading
 import logging
 from boxyz_heat_functions import *
+from boxyz_heat_clock import current_on
 
 access_json = 'boxyz_json.json'
-
-
-formatter_warning = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
-handler_warning = logging.FileHandler("logs/warning.log", mode="a", encoding="utf-8")
-handler_warning.setFormatter(formatter_warning)
-handler_warning.setLevel(logging.WARNING)
-logger_warning = logging.getLogger("Serveur")
-logger_warning.setLevel(logging.WARNING)
-logger_warning.addHandler(handler_warning)
 
 formatter_serveur = logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s")
 handler_serveur = logging.FileHandler("logs/serveur.log", mode="a", encoding="utf-8")
@@ -24,8 +16,6 @@ handler_serveur.setLevel(logging.INFO)
 logger_serveur = logging.getLogger("Serveur")
 logger_serveur.setLevel(logging.INFO)
 logger_serveur.addHandler(handler_serveur)
-
-
 
 with open (access_json, "r") as j:
     Json = json.load(j)
@@ -43,7 +33,7 @@ def main_server():
     except OSError as e:
         sys.exit()
         print(str(e))
-        logger_warning.warning('Warning Error %s: %s', '2099', 'Erreur thread server : Failed to create socket. -> ' + str(e))
+        logger_serveur.warning('Warning Error %s: %s', '2099', 'Erreur thread server : Failed to create socket. -> ' + str(e))
 
     #main
     while (1):
@@ -59,6 +49,7 @@ def main_server():
             try:
                 if string == 'test':
                     conn.send(str("true").encode('utf-8'))
+                    
                 if string == 'getJson':
                     with open(access_json, "r") as f:
                         Json = json.load(f)
@@ -80,6 +71,7 @@ def main_server():
                     heatDelTemp()
 
                 if string == 'changeStatusHeater':
+                    print(current_on)
                     if current_on is not None:
                         clockSetOffThermostas()
                     if current_on is None:
@@ -88,7 +80,7 @@ def main_server():
                 conn.send("error".encode('utf-8'))
               
         except Exception as e:
-            logger_warning.warning('Warning Error %s: %s', '2009', 'Erreur thread server : Erreur in sockets arguments. -> ' + str(e))
+            logger_serveur.warning('Warning Error %s: %s', '2009', 'Erreur thread server : Erreur in sockets arguments. -> ' + str(e))
 
         conn.close()
     s.close()
