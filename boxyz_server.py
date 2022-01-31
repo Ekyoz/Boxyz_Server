@@ -1,11 +1,9 @@
 import json
 import socket
 import sys
-import random
-import threading
 import logging
-from boxyz_heat_functions import *
-from boxyz_heat_clock import current_on
+import functions.thermostas as thermostas
+import functions.clock as clock
 
 access_json = 'boxyz_json.json'
 
@@ -31,9 +29,9 @@ def main_server():
         print('Serveur - Server created and now listening')
         logger_serveur.info("Server created and now listening")
     except OSError as e:
-        sys.exit()
         print(str(e))
         logger_serveur.warning('Warning Error %s: %s', '2099', 'Erreur thread server : Failed to create socket. -> ' + str(e))
+        sys.exit()
 
     #main
     while (1):
@@ -57,30 +55,29 @@ def main_server():
                 
                 if "setHeat" in string:
                     conn.send("temp set".encode('utf-8'))
-                    clockSetTemperature(string.split("-")[1])
+                    thermostas.SetTemperature(string.split("-")[1])
 
                 if string == 'getHeat':
                     with open(access_json, "r") as f:
                         Json = json.load(f)
-                        conn.send(str(Json["heat"]["temperature"]).encode('utf-8'))
+                        conn.send(str(Json["thermostas"]["temperature"]).encode('utf-8'))
                 
                 if string == 'heatAdd':
-                    heatAddTemp()
+                    thermostas.AddTemp()
 
                 if string == 'heatDel':
-                    heatDelTemp()
+                    thermostas.DelTemp()
 
                 if string == 'changeStatusHeater':
+                    current_on = clock.GetCurrentOn()
                     print(current_on)
-                    if current_on is not None:
-                        clockSetOffThermostas()
-                    if current_on is None:
-                        clockSetOnThermostas(clockGetTempSlot(current_on))  
+                    if current_on == None:
+                        thermostas.SetOffThermostas()
+                    if current_on != None:
+                        thermostas.SetOnThermostas(21)  
             except:
                 conn.send("error".encode('utf-8'))
-              
         except Exception as e:
             logger_serveur.warning('Warning Error %s: %s', '2009', 'Erreur thread server : Erreur in sockets arguments. -> ' + str(e))
-
         conn.close()
     s.close()

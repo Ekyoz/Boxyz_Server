@@ -28,3 +28,563 @@
 2022-01-29 22:51:51,383 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : name 'datetime' is not defined
 2022-01-29 22:51:51,383 -- MAIN -- STARTING -- Start clock Boxyz
 2022-01-29 22:51:51,384 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:13:00,606 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:13:00,606 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:13:00,607 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:14:44,959 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:14:44,959 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:14:44,959 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:17:08,807 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:17:08,807 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:17:08,808 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:20:32,866 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:20:32,866 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:20:32,867 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:22:48,605 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:22:48,605 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:22:48,605 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:23:25,176 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:23:25,176 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:23:25,176 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:37:36,689 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:37:36,689 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:37:36,689 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:38:02,981 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:38:02,981 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:38:02,982 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:40:08,051 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:40:08,051 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:40:08,051 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:40:28,495 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-29 23:40:28,495 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-29 23:40:28,495 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-29 23:53:39,422 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-30 00:08:08,152 -- CLOCK -- WARNING -- Warning Error 2001: Erreur thread clock : module 'datetime' has no attribute 'now'
+2022-01-30 00:09:11,002 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:30,816 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:35,830 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:40,834 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:45,847 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:50,862 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:09:55,865 -- CLOCK -- INFO -- 00:09 -- Current on: None
+2022-01-30 00:10:00,870 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:05,873 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:10,886 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:15,893 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:20,899 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:25,910 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:30,914 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:35,921 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:40,936 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:45,944 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:50,957 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:10:55,964 -- CLOCK -- INFO -- 00:10 -- Current on: None
+2022-01-30 00:11:00,970 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:05,984 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:10,999 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:16,004 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:21,012 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:26,022 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:31,028 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:36,036 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:41,046 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:46,048 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:51,054 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:11:56,059 -- CLOCK -- INFO -- 00:11 -- Current on: None
+2022-01-30 00:12:01,075 -- CLOCK -- INFO -- 00:12 -- Current on: None
+2022-01-30 00:12:06,082 -- CLOCK -- INFO -- 00:12 -- Current on: None
+2022-01-30 00:12:11,098 -- CLOCK -- INFO -- 00:12 -- Current on: None
+2022-01-30 00:12:16,104 -- CLOCK -- INFO -- 00:12 -- Current on: None
+2022-01-30 00:13:22,560 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:27,572 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:32,582 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:37,588 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:42,597 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:47,612 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:52,616 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:13:57,624 -- CLOCK -- INFO -- 00:13 -- Current on: None
+2022-01-30 00:14:02,628 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:07,636 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:12,639 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:17,644 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:22,654 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:27,667 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:32,672 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:37,684 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:42,693 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:47,698 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:52,705 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:14:57,708 -- CLOCK -- INFO -- 00:14 -- Current on: None
+2022-01-30 00:15:05,004 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:10,020 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:14,657 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:19,665 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:24,672 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:29,674 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:34,689 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:39,690 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:43,644 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:48,665 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:53,671 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:15:58,684 -- CLOCK -- INFO -- 00:15 -- Current on: None
+2022-01-30 00:16:03,687 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:08,702 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:17,924 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:22,939 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:27,945 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:32,962 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:37,967 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:42,983 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:47,991 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:53,002 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:16:58,013 -- CLOCK -- INFO -- 00:16 -- Current on: None
+2022-01-30 00:17:03,027 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:08,044 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:13,051 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:18,064 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:23,076 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:28,078 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:30,308 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:35,314 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:40,327 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:45,341 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:50,348 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:17:55,357 -- CLOCK -- INFO -- 00:17 -- Current on: None
+2022-01-30 00:18:00,365 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:05,379 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:10,380 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:15,382 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:20,393 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:25,405 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:30,416 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:35,431 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:18:40,444 -- CLOCK -- INFO -- 00:18 -- Current on: None
+2022-01-30 00:20:26,697 -- CLOCK -- INFO -- 00:20 -- Current on: None
+2022-01-30 00:20:31,712 -- CLOCK -- INFO -- 00:20 -- Current on: None
+2022-01-30 00:21:32,631 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:21:37,647 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:21:42,657 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:21:47,670 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:21:52,684 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:21:57,688 -- CLOCK -- INFO -- 00:21 -- Current on: None
+2022-01-30 00:22:02,691 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:07,701 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:12,705 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:17,707 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:22,716 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:27,719 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:54,805 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:22:59,820 -- CLOCK -- INFO -- 00:22 -- Current on: None
+2022-01-30 00:23:04,836 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:23:09,842 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:23:14,854 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:23:19,865 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:23:24,872 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:23:29,883 -- CLOCK -- INFO -- 00:23 -- Current on: None
+2022-01-30 00:40:35,417 -- CLOCK -- INFO -- 00:40 -- Current on: None
+2022-01-30 00:40:40,421 -- CLOCK -- INFO -- 00:40 -- Current on: None
+2022-01-30 00:40:45,428 -- CLOCK -- INFO -- 00:40 -- Current on: None
+2022-01-30 00:40:50,440 -- CLOCK -- INFO -- 00:40 -- Current on: None
+2022-01-30 00:40:55,457 -- CLOCK -- INFO -- 00:40 -- Current on: None
+2022-01-30 00:41:00,563 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:05,691 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:10,793 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:15,871 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:21,967 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:27,035 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:32,115 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:37,226 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:42,334 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:47,463 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:52,571 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:41:57,645 -- CLOCK -- INFO -- 00:41 -- Current on: 4
+2022-01-30 00:42:02,924 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:08,041 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:13,164 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:18,276 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:23,392 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:28,521 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:33,597 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:38,753 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:43,889 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:48,964 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:54,122 -- CLOCK -- INFO -- 00:42 -- Current on: 4
+2022-01-30 00:42:57,352 -- CLOCK -- INFO -- 00:42 -- Current on: 0
+2022-01-30 00:43:02,443 -- CLOCK -- INFO -- 00:43 -- Current on: 0
+2022-01-30 00:43:06,035 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:11,044 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:16,055 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:21,071 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:24,941 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:29,950 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:34,963 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:39,976 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:44,984 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:49,987 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:43:55,001 -- CLOCK -- INFO -- 00:43 -- Current on: None
+2022-01-30 00:44:00,010 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:05,022 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:10,044 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:15,055 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:20,079 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:25,093 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:30,101 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:35,108 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:40,116 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:45,128 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:49,642 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:54,648 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:44:59,664 -- CLOCK -- INFO -- 00:44 -- Current on: None
+2022-01-30 00:45:04,687 -- CLOCK -- INFO -- 00:45 -- Current on: None
+2022-01-30 00:45:09,691 -- CLOCK -- INFO -- 00:45 -- Current on: None
+2022-01-30 00:45:24,770 -- CLOCK -- INFO -- 00:45 -- Current on: None
+2022-01-30 00:45:29,778 -- CLOCK -- INFO -- 00:45 -- Current on: None
+2022-01-30 00:45:34,784 -- CLOCK -- INFO -- 00:45 -- Current on: None
+2022-01-30 00:46:11,143 -- CLOCK -- INFO -- 00:46 -- Current on: null
+2022-01-30 00:46:16,149 -- CLOCK -- INFO -- 00:46 -- Current on: null
+2022-01-30 00:46:21,162 -- CLOCK -- INFO -- 00:46 -- Current on: null
+2022-01-30 00:46:23,120 -- CLOCK -- INFO -- 00:46 -- Current on: null
+2022-01-30 00:47:43,197 -- CLOCK -- INFO -- 00:47 -- Current on: null
+2022-01-30 00:47:48,319 -- CLOCK -- INFO -- 00:47 -- Current on: null
+2022-01-30 00:50:36,158 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 00:50:36,159 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 00:50:36,234 -- CLOCK -- INFO -- 00:50 -- Current on: null
+2022-01-30 00:50:41,376 -- CLOCK -- INFO -- 00:50 -- Current on: null
+2022-01-30 00:50:46,468 -- CLOCK -- INFO -- 00:50 -- Current on: null
+2022-01-30 00:50:51,535 -- CLOCK -- INFO -- 00:50 -- Current on: null
+2022-01-30 00:50:56,612 -- CLOCK -- INFO -- 00:50 -- Current on: null
+2022-01-30 00:51:01,696 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:08,782 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:13,856 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:18,941 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:24,018 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:29,095 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:34,164 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:39,241 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:43,805 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 00:51:43,806 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 00:51:43,866 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:48,946 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:54,038 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:51:59,111 -- CLOCK -- INFO -- 00:51 -- Current on: null
+2022-01-30 00:52:04,183 -- CLOCK -- INFO -- 00:52 -- Current on: null
+2022-01-30 18:20:46,452 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:20:46,455 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:20:46,530 -- CLOCK -- INFO -- 18:20 -- Current on: null
+2022-01-30 18:20:51,610 -- CLOCK -- INFO -- 18:20 -- Current on: null
+2022-01-30 18:20:56,679 -- CLOCK -- INFO -- 18:20 -- Current on: null
+2022-01-30 18:21:01,756 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:06,830 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:11,911 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:17,005 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:22,086 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:27,206 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:32,293 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:37,378 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:42,466 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:47,536 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:52,610 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:21:57,686 -- CLOCK -- INFO -- 18:21 -- Current on: null
+2022-01-30 18:22:02,764 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:07,850 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:12,920 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:19,000 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:24,073 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:29,141 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:34,233 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:39,305 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:44,380 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:49,506 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:54,578 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:22:59,650 -- CLOCK -- INFO -- 18:22 -- Current on: null
+2022-01-30 18:23:04,737 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:09,819 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:14,908 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:19,980 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:25,080 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:30,146 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:35,216 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:40,300 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:45,386 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:50,477 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:23:55,549 -- CLOCK -- INFO -- 18:23 -- Current on: null
+2022-01-30 18:24:00,627 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:05,695 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:10,778 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:15,855 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:20,954 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:26,029 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:31,124 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:36,199 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:41,274 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:46,385 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:51,476 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:24:58,560 -- CLOCK -- INFO -- 18:24 -- Current on: null
+2022-01-30 18:25:03,630 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:08,710 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:14,796 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:19,867 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:25,014 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:30,085 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:35,152 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:40,228 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:45,304 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:52,392 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:25:57,464 -- CLOCK -- INFO -- 18:25 -- Current on: null
+2022-01-30 18:26:02,539 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:07,611 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:12,680 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:17,760 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:22,855 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:27,926 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:33,019 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:38,087 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:43,222 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:48,298 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:53,381 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:26:58,474 -- CLOCK -- INFO -- 18:26 -- Current on: null
+2022-01-30 18:27:05,380 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:10,447 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:15,518 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:20,600 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:25,682 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:30,758 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:35,837 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:40,922 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:46,006 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:51,092 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:27:56,160 -- CLOCK -- INFO -- 18:27 -- Current on: null
+2022-01-30 18:28:01,227 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:06,300 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:11,386 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:16,457 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:21,536 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:26,612 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:31,680 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:36,765 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:41,856 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:46,935 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:52,005 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:28:57,081 -- CLOCK -- INFO -- 18:28 -- Current on: null
+2022-01-30 18:29:02,175 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:07,247 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:12,322 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:17,415 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:22,484 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:27,549 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:32,681 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:37,754 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:42,831 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:47,906 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:29:54,983 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:30:00,073 -- CLOCK -- INFO -- 18:29 -- Current on: null
+2022-01-30 18:30:05,163 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:10,260 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:15,340 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:20,409 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:25,505 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:30,578 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:35,650 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:40,722 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:45,802 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:50,876 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:30:55,952 -- CLOCK -- INFO -- 18:30 -- Current on: 4
+2022-01-30 18:31:05,139 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:31:05,140 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:31:05,218 -- CLOCK -- INFO -- 18:31 -- Current on: null
+2022-01-30 18:31:10,364 -- CLOCK -- INFO -- 18:31 -- Current on: null
+2022-01-30 18:31:15,439 -- CLOCK -- INFO -- 18:31 -- Current on: null
+2022-01-30 18:31:20,535 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:25,634 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:30,707 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:40,683 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:45,798 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:50,959 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:31:58,333 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:31:58,334 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:31:58,397 -- CLOCK -- INFO -- 18:31 -- Current on: 4
+2022-01-30 18:32:03,608 -- CLOCK -- INFO -- 18:32 -- Current on: null
+2022-01-30 18:32:08,750 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:13,960 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:19,088 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:24,205 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:29,298 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:34,387 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:39,457 -- CLOCK -- INFO -- 18:32 -- Current on: 4
+2022-01-30 18:32:44,544 -- CLOCK -- INFO -- 18:32 -- Current on: 2
+2022-01-30 18:32:49,627 -- CLOCK -- INFO -- 18:32 -- Current on: 2
+2022-01-30 18:32:54,724 -- CLOCK -- INFO -- 18:32 -- Current on: 2
+2022-01-30 18:32:59,792 -- CLOCK -- INFO -- 18:32 -- Current on: 2
+2022-01-30 18:33:04,870 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:09,956 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:15,045 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:20,120 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:25,190 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:30,275 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:35,353 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:40,433 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:45,507 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:50,587 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:33:55,659 -- CLOCK -- INFO -- 18:33 -- Current on: 2
+2022-01-30 18:34:00,736 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:05,809 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:10,881 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:17,964 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:23,045 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:28,145 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:33,218 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:38,294 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:43,366 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:48,449 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:53,521 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:34:58,623 -- CLOCK -- INFO -- 18:34 -- Current on: null
+2022-01-30 18:35:03,742 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:08,836 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:15,983 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:21,054 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:26,161 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:31,279 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:36,407 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:41,520 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:46,595 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:51,775 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:35:56,884 -- CLOCK -- INFO -- 18:35 -- Current on: null
+2022-01-30 18:36:01,974 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:07,123 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:12,254 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:17,360 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:22,477 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:27,606 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:32,730 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:37,841 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:42,914 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:47,987 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:53,108 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:36:58,221 -- CLOCK -- INFO -- 18:36 -- Current on: null
+2022-01-30 18:37:03,357 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:08,465 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:13,538 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:18,711 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:23,780 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:28,849 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:33,961 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:39,034 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:44,206 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:49,315 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:54,433 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:37:59,564 -- CLOCK -- INFO -- 18:37 -- Current on: null
+2022-01-30 18:38:04,682 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:09,778 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:14,924 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:19,991 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:25,152 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:30,285 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:35,405 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:40,479 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:45,682 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:50,861 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:38:55,934 -- CLOCK -- INFO -- 18:38 -- Current on: null
+2022-01-30 18:39:01,009 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:06,115 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:11,235 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:16,375 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:21,477 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:26,575 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:31,719 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:36,792 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:41,862 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:46,948 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:39:52,094 -- CLOCK -- INFO -- 18:39 -- Current on: null
+2022-01-30 18:46:44,080 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:46:44,081 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:47:33,516 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:47:33,517 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:47:33,520 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:47:38,534 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:47:43,545 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:47:48,551 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:47:53,565 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:47:58,588 -- CLOCK -- INFO -- 18:47 -- Current on: None
+2022-01-30 18:48:03,615 -- CLOCK -- INFO -- 18:48 -- Current on: None
+2022-01-30 18:48:08,623 -- CLOCK -- INFO -- 18:48 -- Current on: None
+2022-01-30 18:48:49,331 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:48:49,331 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:48:49,335 -- CLOCK -- INFO -- 18:48 -- Current on: None
+2022-01-30 18:48:54,344 -- CLOCK -- INFO -- 18:48 -- Current on: None
+2022-01-30 18:48:59,360 -- CLOCK -- INFO -- 18:48 -- Current on: None
+2022-01-30 18:49:04,377 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:09,391 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:14,407 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:25,038 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:49:25,038 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:49:25,042 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:30,055 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:35,060 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:41,524 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:49:41,524 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:49:41,528 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:46,542 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:51,555 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:49:56,571 -- CLOCK -- INFO -- 18:49 -- Current on: None
+2022-01-30 18:50:01,581 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:06,586 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:11,601 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:16,606 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:21,617 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:26,627 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:31,641 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:36,655 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:41,661 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:46,677 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:51,695 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:50:56,701 -- CLOCK -- INFO -- 18:50 -- Current on: None
+2022-01-30 18:51:01,284 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:51:01,285 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:51:19,828 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:51:19,828 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:51:53,116 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:51:53,116 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:52:13,281 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:52:13,281 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:53:05,455 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:53:05,455 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:53:20,513 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 18:53:20,513 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-30 18:53:20,517 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:25,531 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:30,537 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:35,550 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:40,562 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:45,579 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:50,591 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:53:55,599 -- CLOCK -- INFO -- 18:53 -- Current on: None
+2022-01-30 18:54:00,616 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:05,621 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:10,637 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:15,738 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:54:20,748 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:54:25,773 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:54:30,790 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:54:35,884 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:40,899 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:45,912 -- CLOCK -- INFO -- 18:54 -- Current on: None
+2022-01-30 18:54:51,017 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:54:56,024 -- CLOCK -- INFO -- 18:54 -- Current on: 2
+2022-01-30 18:55:01,038 -- CLOCK -- INFO -- 18:55 -- Current on: 2
+2022-01-30 18:55:06,110 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:11,124 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:16,138 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:21,142 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:26,160 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:31,172 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:36,188 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:41,206 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:46,221 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:51,234 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:55:56,249 -- CLOCK -- INFO -- 18:55 -- Current on: None
+2022-01-30 18:56:01,260 -- CLOCK -- INFO -- 18:56 -- Current on: None
+2022-01-30 18:56:06,273 -- CLOCK -- INFO -- 18:56 -- Current on: None
+2022-01-30 19:15:55,054 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-30 19:15:55,054 -- MAIN -- STARTING -- Start serveur Boxyz
+2022-01-31 18:45:24,852 -- MAIN -- STARTING -- Start clock Boxyz
+2022-01-31 18:45:24,853 -- MAIN -- STARTING -- Start serveur Boxyz

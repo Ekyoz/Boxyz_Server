@@ -1,5 +1,5 @@
 {
-      "heat": {
+      "clock": {
             "timeSlot": {
                   "0": {
                         "name": "Nom",
@@ -25,9 +25,9 @@
                         "day": [
                               "Mardi"
                         ],
-                        "hourStart": "16:48",
-                        "hourEnd": "16:48",
-                        "temp": "22",
+                        "hourStart": "18:53",
+                        "hourEnd": "18:53",
+                        "temp": "18",
                         "state": "True"
                   },
                   "3": {
@@ -47,13 +47,20 @@
                               "Mercredi",
                               "Dimanche"
                         ],
-                        "hourStart": "18:41",
-                        "hourEnd": "18:42",
-                        "temp": "22",
+                        "hourStart": "18:30",
+                        "hourEnd": "18:32",
+                        "temp": "23",
                         "state": "True"
                   }
             },
-            "temperature": "23"
+            "current_on": null
+      },
+      "thermostas": {
+            "temperature": 19,
+            "state": false,
+            "Temporarily": false,
+            "TemporarilyStart": null,
+            "TemporarilyEnd": null
       },
       "days": {
             "Monday": [
@@ -75,7 +82,7 @@
             ],
             "Saturday": [],
             "Sunday": [
-                  4
+                  2
             ]
       },
       "settings": {
@@ -84,11 +91,12 @@
                   "port": "80"
             },
             "server": {
-                  "host": "192.168.1.45",
-                  "port": "3131"
+                  "host": "192.168.1.26",
+                  "port": "25565"
             },
-            "heatMax": 25,
-            "heatMin": 18,
-            "heatDefault": 19
+            "tempMax": 25,
+            "tempMin": 18,
+            "tempDefault": 19,
+            "clockTimeToDefault": 30
       }
 }
