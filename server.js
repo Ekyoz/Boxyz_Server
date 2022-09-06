@@ -8,70 +8,7 @@ let port = json.settings.server.port
 let host = json.settings.server.host
 
 
-const server = http.createServer(function (req, res) {
-    json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
-    switch (req.url) {
-        case "/":
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end("ON");
-            break
-
-
-        //Get information
-
-        case "/get/json/all":
-            res.writeHead(200, { "Content-Type": "application/json" });
-            res.end(JSON.stringify(json));
-            break
-
-        case "/get/json/clock":
-            res.writeHead(200, { "Content-Type": "application/json" });
-            res.end(JSON.stringify(json.clock));
-            break
-
-        case "/get/json/thermostas":
-            res.writeHead(200, { "Content-Type": "application/json" });
-            res.end(JSON.stringify(json.thermostas));
-            break
-
-        case "/get/temprature":
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end(JSON.stringify(json.thermostas.temperature));
-            break
-
-        case "/get/state":
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end(JSON.stringify(json.thermostas.state));
-            break
-
-
-        //Set information
-
-        case "/set/temprature":
-            json.thermostas.temperature = 
-
-
-        case "/set/state":
-
-        case "/set/thermosUp":
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end("increase");
-            Up()
-            break
-
-        case "/set/thermosDown":
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end("decrease");
-            Down()
-            break
-
-
-        default:
-            res.writeHead(404);
-            res.end("error")
-            break
-    }
-}).listen(port, host, () => {
+const server = http.createServer(()).listen(port, host, () => {
     console.log(`Server is running on http://${host}:${port}`);
 });
 
