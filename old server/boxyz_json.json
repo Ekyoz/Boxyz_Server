@@ -56,11 +56,11 @@
             "current_on": null
       },
       "thermostas": {
-            "temperature": 19,
+            "temperature": 21,
             "state": false,
-            "Temporarily": false,
-            "TemporarilyStart": null,
-            "TemporarilyEnd": null
+            "Temporarily": true,
+            "TemporarilyStart": "16:25",
+            "TemporarilyEnd": "16:25"
       },
       "days": {
             "Monday": [
@@ -80,14 +80,16 @@
             "Friday": [
                   4
             ],
-            "Saturday": [],
+            "Saturday": [
+                  4
+            ],
             "Sunday": [
                   2
             ]
       },
       "settings": {
             "thermostas": {
-                  "ip": "192.168.1.28",
+                  "ip": "192.168.1.49",
                   "port": "80"
             },
             "server": {
@@ -97,6 +99,7 @@
             "tempMax": 25,
             "tempMin": 18,
             "tempDefault": 19,
-            "clockTimeToDefault": 30
+            "clockTimeToDefaultHour": 0,
+            "clockTimeToDefaultMin": 0
       }
 }

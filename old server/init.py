@@ -1,4 +1,4 @@
-from functions.thermostas import GetState, SetState, SetTemperature, access_json
+from clock.functions.thermostas import GetState, SetState, SetTemperature, access_json
 import requests
 import json
 
@@ -12,3 +12,4 @@ def __init__():
         requests.post(url)
         SetState(False)
     SetTemperature(TEMP_DEFAULT)
+

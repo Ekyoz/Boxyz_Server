@@ -1,0 +1,20 @@
+{
+  "name": "boxyz_server",
+  "version": "1.0.0",
+  "description": "Server for boxyz system",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekyoz/Boxyz_Server.git"
+  },
+  "author": "Ekyoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekyoz/Boxyz_Server/issues"
+  },
+  "homepage": "https://github.com/Ekyoz/Boxyz_Server#readme"
+}
