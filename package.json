@@ -2,10 +2,10 @@
   "name": "boxyz_server",
   "version": "1.0.0",
   "description": "Server for boxyz system",
-  "main": "server.js",
+  "main": "js/server.js",
   "scripts": {
-    "test": "node server.js",
-    "start": "node server.js"
+    "test": "node js/server.js",
+    "start": "node js/server.js"
   },
   "repository": {
     "type": "git",
