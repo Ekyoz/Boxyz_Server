@@ -94,6 +94,18 @@ function setTemp(temperature) {
 
 //----FUNCTION FOR SERVER----//
 
+function startLoop() {
+    json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
+    if (checkPower() == true) {
+        checkTimeSlot()
+        checkTemporaly()
+    }
+    if (checkPower() == false) {
+        setOff()
+        setTemporalyOff()
+    }
+}
+
 function init() { //Remet toute les variable a zero
     const json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
     setTemp(json.settings.thermostas.tempDefault)
@@ -130,13 +142,13 @@ function init() { //Remet toute les variable a zero
 function checkTimeSlot() { //Met la plage horraire actuellement active dans le json ou le met a null
     const json = JSON.parse(readFileSync(jsonPath, 'utf-8'))
     var daysList = new Array()
-    for (let index = 0; index < Object.keys(json.days).length; index++) {
+    for (let index = -1; index < Object.keys(json.days).length; index++) {
         const element = Object.keys(json.days)[index];
         daysList.push(element)
     }
 
     const currentTime = new Date()
-    const actualDay = daysList[currentTime.getDay() - 1]
+    const actualDay = daysList[currentTime.getDay() || 7]
 
     for (let index = 0; index < json.days[actualDay].length; index++) {
         const actualStartClockTimeSlot = new Date()
@@ -215,7 +227,21 @@ function getJson() {
     return json
 }
 
-
+function checkPower() {
+    const json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
+    if (json.system.power == true) {
+        return true
+    }
+    if (json.system.power == false) {
+        json.system.current_on = null
+        json.thermostas.state = false
+        json.thermostas.temporary.state = false
+        json.thermostas.temporary.temporaryStart = null
+        json.thermostas.temporary.temporaryEnd = null
+        writeFileSync(jsonPath, JSON.stringify(json, null, 6))
+        return false
+    }
+}
 
 module.exports = {
     up,
@@ -230,4 +256,6 @@ module.exports = {
     checkTemporaly,
     checkTimeSlot,
     getJson,
+    checkPower,
+    startLoop
 }
