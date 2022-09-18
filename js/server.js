@@ -1,59 +1,58 @@
-let http = require('http')
-const { readFileSync, writeFileSync } = require("fs");
-
-const jsonPath = 'boxyz_json.json'
-var json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
-
-let port = json.settings.server.port
-let host = json.settings.server.host
+const express = require('express')
+const { up, down, init, getJson } = require('./function');
 
 
-const server = http.createServer(()).listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}`);
-});
+const serverApp = express()
+
+serverApp.get('/', (req, res) => {
+    res.status(200).send('ON');
+})
 
 
-function Up() {
-    temp = json.thermostas.temperature
-    tempMax = json.settings.tempMax
-    if (temp < tempMax) {
-        json.thermostas.temperature = json.thermostas.temperature + 1
-        writeFileSync(jsonPath, JSON.stringify(json, null, 6))
-    }
-    SetTemporalyOn()
-    console.log("The temperature has increased by 1 and the status is true")
-}
+//Get information
+serverApp.get('/get/json/all', (req, res) => {
+    res.status(200).json(getJson());
+})
 
-function Down() {
-    temp = json.thermostas.temperature
-    tempMin = json.settings.tempMin
-    if (tempMin < temp) {
-        json.thermostas.temperature = json.thermostas.temperature - 1
-        writeFileSync(jsonPath, JSON.stringify(json, null, 6))
-    }
-    SetTemporalyOn()
-    console.log("The temperature has decreased by 1 and the status is true")
-}
+serverApp.get('/get/json/clock', (req, res) => {
+    res.status(200).json(getJson().clock);
+})
 
-function SetTemporalyOn() {
-    const currentTime = new Date()
-    const endTime = new Date()
+serverApp.get('/get/json/thermostas', (req, res) => {
+    res.status(200).json(getJson().thermostas);
+})
 
-    endTime.setHours(parseInt(currentTime.getHours()) + parseInt(json.settings.clockTimeToDefaultHour))
-    endTime.setMinutes(parseInt(currentTime.getMinutes()) + parseInt(json.settings.clockTimeToDefaultMin))
+serverApp.get('/get/temprature', (req, res) => {
+    res.status(200).send(getJson().thermostas.temperature);
+})
 
-    if ((json.thermostas.Temporarily == false) & (json.thermostas.TemporarilyStart == null) & (json.thermostas.TemporarilyEnd == null)) {
-        json.thermostas.Temporarily = true
-        json.thermostas.TemporarilyStart = `${("0" + currentTime.getHours()).slice(-2)}:${("0" + currentTime.getMinutes()).slice(-2)}`
-        json.thermostas.TemporarilyEnd = `${("0" + endTime.getHours()).slice(-2)}:${("0" + endTime.getMinutes()).slice(-2)}`
-        writeFileSync(jsonPath, JSON.stringify(json, null, 6))
-    }
-}
+serverApp.get('/get/state', (req, res) => {
+    res.status(200).send(getJson().thermostas.state);
+})
 
-function SetTemporalyOff() {
-    json.thermostas.Temporarily = false
-    json.thermostas.TemporarilyStart = null
-    json.thermostas.TemporarilyEnd = null
-    writeFileSync(jsonPath, JSON.stringify(json, null, 6))
-}
+//Set information
 
+serverApp.get('/set/temperature', (req, res) => {
+    res.status(200).json(getJson().thermostas);
+})
+
+serverApp.get('/set/state', (req, res) => {
+    res.status(200).json(getJson().thermostas.temperature);
+})
+
+serverApp.get('/set/thermosUp', (req, res) => {
+    res.status(200).send("increase")
+    up()
+})
+
+serverApp.get('/set/thermosDown', (req, res) => {
+    res.status(200).send("decrease")
+    down()
+})
+
+serverApp.get('/init', (req, res) => {
+    res.status(200).send('Initilised')
+    init()
+})
+
+module.exports = serverApp;

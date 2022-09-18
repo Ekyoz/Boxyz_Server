@@ -1,0 +1,117 @@
+{
+      "clock": {
+            "timeSlot": {
+                  "0": {
+                        "name": "Nom",
+                        "days": [],
+                        "hourStart": "00:00",
+                        "hourEnd": "00:00",
+                        "temp": 20,
+                        "state": true
+                  },
+                  "1": {
+                        "name": "Matin",
+                        "days": [
+                              "Lundi",
+                              "Mardi"
+                        ],
+                        "hourStart": "8:00",
+                        "hourEnd": "10:00",
+                        "temp": 20,
+                        "state": true
+                  },
+                  "2": {
+                        "name": "Midi",
+                        "days": [
+                              "Mardi",
+                              "Mercredi"
+                        ],
+                        "hourStart": "20:15",
+                        "hourEnd": "20:15",
+                        "temp": 20,
+                        "state": true
+                  },
+                  "3": {
+                        "name": "Apres-Midi",
+                        "days": [
+                              "Mercredi",
+                              "Vendredi"
+                        ],
+                        "hourStart": "20:16",
+                        "hourEnd": "20:16",
+                        "temp": 20,
+                        "state": true
+                  },
+                  "4": {
+                        "name": "Soir",
+                        "days": [
+                              "Mercredi",
+                              "Dimanche"
+                        ],
+                        "hourStart": "14:02",
+                        "hourEnd": "14:02",
+                        "temp": 22,
+                        "state": true
+                  }
+            },
+            "current_on": null
+      },
+      "system": {
+            "power": true,
+            "current_on": null
+      },
+      "thermostas": {
+            "state": false,
+            "temperature": 19,
+            "temporary": {
+                  "state": false,
+                  "temporaryStart": null,
+                  "temporaryEnd": null
+            }
+      },
+      "days": {
+            "Monday": [
+                  1
+            ],
+            "Tuesday": [
+                  1,
+                  2
+            ],
+            "Wednesday": [
+                  2,
+                  3,
+                  4
+            ],
+            "Thursday": [
+                  2
+            ],
+            "Friday": [
+                  4
+            ],
+            "Saturday": [
+                  4
+            ],
+            "Sunday": [
+                  2
+            ]
+      },
+      "settings": {
+            "thermostas": {
+                  "ip": "192.168.1.49",
+                  "port": 80,
+                  "temperature": {
+                        "tempMax": 25,
+                        "tempMin": 18,
+                        "tempDefault": 19
+                  }
+            },
+            "server": {
+                  "host": "192.168.1.26",
+                  "port": 25565
+            },
+            "temporary": {
+                  "clockTimeToDefaultHour": 0,
+                  "clockTimeToDefaultMin": 0
+            }
+      }
+}
